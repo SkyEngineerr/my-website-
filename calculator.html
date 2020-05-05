@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Divergent - Personal Vcard Resume HTML Template</title>
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- FAVICON -->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!-- CSS FILES -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/tooltipster.css" rel="stylesheet" type="text/css">
+    <link href="css/scrollbar.css" rel="stylesheet" type="text/css">
+    <link href="css/lightgallery.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+    <link href="css/neon.css" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- NOSCRIPT -->
+    <noscript>
+        <link href="css/nojs.css" rel="stylesheet" type="text/css">
+    </noscript>
+</head>
+
+<body>
+    <!-- LOADING ANIMATION -->
+    <div id="site-loading"></div>
+    <!-- MAIN MENU -->
+    <div id="cv-menu">
+        <nav id="cv-main-menu">
+            <ul>
+                <!-- SIDEBAR MENU ICON -->
+                <li><a href="#" class="cv-menu-button fa fa-bars">Menu</a>
+                </li>
+                <li><a href="index.html" class="fa fa-home tooltip-menu" title="HOME">Home</a>
+                </li>
+                <li><a href="index.html#about" class="fa fa-user tooltip-menu" title="ABOUT">About</a>
+                </li>
+                <li><a href="index.html#resume" class="fa fa-graduation-cap tooltip-menu" title="RESUME">Resume</a>
+                </li>
+                <li><a href="index.html#portfolio" class="fa fa-briefcase tooltip-menu" title="PORTFOLIO">Portfolio</a>
+                </li>
+                <li><a href="index.html#contact" class="fa fa-send tooltip-menu" title="CONTACT">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="cv-page-left"></div>
+    <div id="cv-page-right">
+        <!-- THIS IMAGE WILL BE DISPLAYED ONLY ON MOBILE MODE ( 1024PX AND BELOW ) -->
+        <div class="img-mobile-only">
+            <img src="images/photos/calculator.jpg" alt="" />
+        </div>
+        <!-- POST -->
+        <article class="cv-page-content">
+            <h1 class="border">CALCULATOR</h1>
+            <p>I think every software developer makes a calculator at least once at the start of the road. 
+            This is not a big project. But it is very useful for new learners.
+            In this project, I used HTML and pure CSS for the frontend, and Vanilla JS for the backend.</p>
+            <!-- FLEX IMAGE -->
+            <figure class="caption-image">
+                <div>
+                    <img src="images/photos/calculator3.png" alt="">
+                </div>
+                <figcaption>Calculator</figcaption>
+            </figure>
+            <div id="accordion-container">
+                <!-- ITEM 1 -->
+                <div class="accordion-header"><strong><i class="cv-icon fa fa-github"></i>GitHub Codes</strong>
+                </div>
+                <div class="accordion-content">
+                    <div class="cv-box cv-dark">
+                        <div class="cv-box-title">If you want to see the codes, please click 
+                            <a href="https://github.com/SkyEngineerr/calculator" target="_blank" style="color:#de3926;">HERE!</a> 
+                        </div>
+                    </div>
+                </div>
+               
+                <!-- ITEM 2 -->
+                <div class="accordion-header"><strong><i class="cv-icon fa fa-rocket"></i>Simulation</strong>
+                </div>
+                <div class="accordion-content">
+                    <div class="cv-box cv-red">
+                        <div class="cv-box-title">If you want to see the codes, please click 
+                            <a href="https://skyengineerr.github.io/calculator/" target="_blank" style="color:#222;">HERE!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </div>
+    <!-- FOOTER -->
+    <footer id="footer" class="fixed-footer">
+        <div class="cv-credits">
+            Copyright <a href="#">Eren Yilmaz </a> - All rights reserved
+        </div>
+        <!-- BACK TO TOP BUTTON -->
+        <div id="cv-back-to-top" class="tooltip-gototop" title="Go to top"></div>
+    </footer>
+    <!-- SIDEBAR -->
+    <aside id="cv-sidebar">
+            <!-- MENU WIDGET -->
+             <div class="sign">
+                <span class="sign__word">Clean</span>
+                <span class="sign__word">Creative</span>
+                <span class="sign__word" id="beauty">#Beautiful</span>
+                <span class="sign__word">Responsive</span>
+                <span class="sign__word">Smart</span>
+            </div>
+    </aside>
+    <!-- JQUERY -->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!-- BACKSTRETCH (BG IMAGE) -->
+    <script type="text/javascript" src="js/backstretch.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            jQuery('#cv-page-left').backstretch("images/photos/calculator.jpg");
+        });
+    </script>
+    <!-- TOOLTIPS -->
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+    <!-- SIDEBAR SCROLLBAR -->
+    <script type="text/javascript" src="js/scrollbar.js"></script>
+    <!-- LIGHTGALLERY -->
+    <script type="text/javascript" src="js/lightgallery.js"></script>
+    <!-- FLICKR -->
+    <script type="text/javascript" src="js/jflickrfeed.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- ACCORDION -->
+    <script type="text/javascript" src="js/accordion.js"></script>
+</body>
+
+</html>
